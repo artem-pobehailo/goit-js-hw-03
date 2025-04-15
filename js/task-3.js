@@ -1,10 +1,10 @@
 function filterArray(numbers, value) {
-    let newArray = [];
-    for (let i = 0; i <= numbers.length; i++) {
+    let newsArray = [];
+    for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] > value) {
-           newArray.push(numbers[i]);}
+           newsArray.push(numbers[i]);}
     }
-    return newArray;
+    return newsArray;
 }
 
 
